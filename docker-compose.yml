@@ -1,0 +1,7 @@
+services:
+  react:
+    image: meaty777/react:1
+    ports:
+      - 5173:5173
+    volumes:
+      - ./Project:/my-react-app
